@@ -2,7 +2,6 @@ public class Solution {
     
     public ArrayList<Integer> plusOne(ArrayList<Integer> A) {
         int i = A.size()-1;
-        
         if(A.get(i)<9){
             A.set(i, A.get(i)+1);
         }else{
@@ -24,15 +23,11 @@ public class Solution {
                 }
                 if(addToLast)
                     A.set(i, A.get(i)+1);
-                
             }
-    
         }
-        
         while(A.get(0)==0){
             A.remove(0);
         }
-        
         return A;
     }
 }
