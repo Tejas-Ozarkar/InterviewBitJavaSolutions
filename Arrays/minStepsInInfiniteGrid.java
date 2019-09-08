@@ -1,3 +1,8 @@
+/*
+    Problem: https://www.interviewbit.com/problems/min-steps-in-infinite-grid
+    Author: Tejas Ozarkar
+*/
+
 public class Solution {
     public int coverPoints(ArrayList<Integer> A, ArrayList<Integer> B) {
         int steps = 0;
