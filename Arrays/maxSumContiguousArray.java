@@ -1,4 +1,10 @@
+/*
+    Problem: https://www.interviewbit.com/problems/max-sum-contiguous-subarray
+    Author: Tejas Ozarkar
+*/
+
 public class Solution {
+
     public int maxSubArray(final List<Integer> A) {
         int sum = 0, max=0, maxItem=-1001;
         for(int i = 0;i<A.size();i++){
