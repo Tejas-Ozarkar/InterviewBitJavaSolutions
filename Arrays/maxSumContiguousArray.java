@@ -6,12 +6,10 @@ public class Solution {
             if(currentValue>maxItem)
                 maxItem = currentValue;
             sum+=currentValue;
-            if(sum<0){
+            if(sum<0)
                 sum = 0;
-            }
-            if(sum>max){
+            if(sum>max)
                 max = sum;
-            }
         }
         return max==0?maxItem:max;
     }
